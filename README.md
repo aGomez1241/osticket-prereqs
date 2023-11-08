@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/rwsDH3w.png"/>
 </p>
 <p>
-Create a virtual machine in Azure that runs Windows 10 and has 2-4 cores. Once it's intiated connect to it with remote desktop and enable IIS. Do this by clicking on the search bar and searching control panel then go to programs and then click Windows features on or off and enable Internet Information Serves and then enable CGI inisde of Application Development Features and Common HTTP Features also make sure IIS Management Console is enabled inside of WebManagement Tools.
+Create a virtual machine in Azure that runs Windows 10 and has 2-4 cores. Once it's initiated connect to it with remote desktop and enable IIS. Do this by clicking on the search bar and searching control panel then go to programs and then click Windows features on or off and enable Internet Information Services and then enable CGI inisde of Application Development Features and Common HTTP Features also make sure IIS Management Console is enabled inside of WebManagement Tools.
   
 </p>
 <br />
@@ -49,7 +49,7 @@ Open a web browser and type in 127.0.0.1 and if the installation worked then thi
 <img src="https://i.imgur.com/SYRLT8t.png"/>
 </p>
 <p>
-Install PHP Manager band be sure to click download anyway. then install the rewrite module and do the same. Use these links: <br />
+Install PHP Manager band, be sure to click download anyway. then install the rewrite module and do the same. Use these links: <br />
    <a href= "https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link"> PHP Manager </a>
   <br />
   <a href= "https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link"> Rewrite Module </a>
@@ -69,7 +69,7 @@ Create a folder in the C drive called PHP this is directory C:\PHP. Next install
 <img src="https://i.imgur.com/zfLe0GP.png"/>
 </p>
 <p>
-This will download a ZIP file go to downloads in file explore right click on the folder and extract to C:\PHP
+This will download a ZIP file. Go to downloads in file explore, right click on the folder and extract to C:\PHP
 </p>
 <br />
 
@@ -77,7 +77,7 @@ This will download a ZIP file go to downloads in file explore right click on the
 <img src="https://i.imgur.com/urpGkfs.png"/>
 </p>
 <p>
-Install VC_Redist and MySQL. The links will be below. When the setup wizard for MySQL launches do a typial and standard setup. Then set the password to be password1. <br \>
+Install VC_Redist and MySQL. The links will be below. When the setup wizard for MySQL launches do a typical and standard setup. Then set the password to be password1. <br \>
 <a href="https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link"> VC </a> <br \>
 <a href="https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link"> MySQL </a> 
 </p>
@@ -95,7 +95,7 @@ Go to the Windows search bar and type in Internet Information Services to open i
 <img src="https://i.imgur.com/cfzo00u.png"/>
 </p>
 <p>
-Use the installation file link to install OsTicket and extract the upload folder to c:\inetpub\wwwroot  and rename it to osTicket then reload IIS. Be sure to be running IIS as an administrator <br \>
+Use the installation file link to install OsTicket and extract the upload folder to c:\inetpub\wwwroot  and rename it to osTicket then reload IIS. Be sure to run IIS as an administrator <br \>
 <a href="https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Installation File </a>
 </p>
 <br />
@@ -127,7 +127,7 @@ Enable: php_opcache.dll
 <img src="https://i.imgur.com/MhYRVn5.png"/>
 </p>
 <p>
-Go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file ost-config.php then right click it go to properties and then security. Go to permissions disable its inheritence then add a principal and give everyone read/write permission.
+Go to C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php and rename the file ost-config.php then right click it go to properties and then security. Go to permissions, disable its inheritance then add a principal and give everyone read/write permission.
 </p>
 <br />
 
