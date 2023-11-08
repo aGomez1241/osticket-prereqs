@@ -150,7 +150,7 @@ Go to OsTicket in your web browser continue the setup by adding in these texts f
   MySQL Username: root <br \>
   MySQL Password: password1
   <br \>
-This should complete the installationa and prompt you to begin the cleanup process which is to delete C:\inetpub\wwwroot\osTicket\setup and to set permissions to Read only for C:\inetpub\wwwroot\osTicket\include\ost-config.php This concludes the setup demonstration for osTicket.
+This should complete the installation and prompt you to begin the cleanup process which is to delete C:\inetpub\wwwroot\osTicket\setup and to set permissions to Read only for C:\inetpub\wwwroot\osTicket\include\ost-config.php This concludes the setup demonstration for osTicket.
 </p>
 <br />
 
